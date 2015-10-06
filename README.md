@@ -7,7 +7,7 @@ lsrw_cms Introduction...
 #### User Object
 User Object Initialization:
         
-$User = new User( $target );
+        $User = new User( $target );
         $User -> id = Returns the $target User's ID
         $User -> name = Returns the $target User's Name
         $User -> display = Returns the $target User's Display Name
