@@ -8,7 +8,7 @@ lsrw_cms Introduction...
 
         $User = new User( $target = null );
                 $target = <user_id> OR <user_name>
-        When $target *set*, returns user with user_id = $target OR user_name = $target
+        When $target set, returns user with user_id = $target OR user_name = $target
         When $target not set, returns all users in associated array
         
         $User -> id = Returns the $target User's ID (Int)
