@@ -16,6 +16,11 @@ lsrw_cms Introduction...
         $User -> created = Returns the $target User's Creation Date (Date Object)
         $User -> exists = Returns true if $target User exists, false if not (Boolean)
 
+| Property | Description          |
+| ------------- | ----------- |
+| $User -> id   | Returns the $target User's ID (Int)   |
+| $User -> name | _Closes_ a window     |
+
 ### Page Object
 
         $Page = new Page( $target );
